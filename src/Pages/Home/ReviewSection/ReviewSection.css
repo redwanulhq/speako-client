@@ -1,0 +1,7 @@
+.short-review {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    min-height: 96px;
+}

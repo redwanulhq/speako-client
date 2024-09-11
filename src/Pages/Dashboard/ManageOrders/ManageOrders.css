@@ -1,0 +1,47 @@
+.orders-container table {
+  width: 100%;
+}
+.orders-container table tr {
+  margin-top: 0px;
+  border-bottom: 1px solid #ddd;
+}
+.orders-container {
+  overflow-x: auto;
+}
+.mange-orders-options {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.mange-orders-options button {
+  border: none;
+  border-radius: 50%;
+  background: #ffecec;
+  color: #ff4141;
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+}
+.mange-orders-options select {
+  border: 1px solid #c3c3c3;
+  height: 35px;
+  padding: 0 5px;
+  border-radius: 5px;
+  color: #444;
+  cursor: pointer;
+}
+table.manage-order-table th:last-child {
+  text-align: center;
+}
+table.manage-order-table tr {
+  border-bottom: 1px solid #ddd;
+}
+table.manage-order-table th {
+  padding: 14px 0;
+  padding-left: 10px;
+}
+table.manage-order-table td {
+  padding: 8px 0;
+  padding-left: 10px;
+}

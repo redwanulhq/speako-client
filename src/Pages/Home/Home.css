@@ -1,0 +1,17 @@
+.home-full-img {
+    margin: 100px 0;
+    padding: 240px 0;
+    background-image: url(https://i.ibb.co/MRdLVGJ/homebanner2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    display: block;
+    filter: grayscale(1);
+}
+.small-border {
+    height: 4px;
+    width: 75px;
+    background-color: #444;
+    margin: 10px 0;
+    border-radius: 5px;
+}

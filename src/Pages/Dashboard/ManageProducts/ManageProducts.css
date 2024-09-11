@@ -1,0 +1,9 @@
+.products-container {
+    overflow-x: auto;
+}
+.total-products {
+    position: absolute;
+    left: 0;
+    font-size: 17px;
+    bottom: 0;
+}

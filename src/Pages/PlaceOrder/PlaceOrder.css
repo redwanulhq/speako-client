@@ -1,0 +1,36 @@
+form.place-order-form input,
+.place-order-form select {
+  padding: 10px 18px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  color: #333;
+  border-radius: 3px;
+}
+form.place-order-form input:focus,
+form.place-order-form select:focus {
+  outline: 1px solid #666;
+}
+.checkout-country-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 8px;
+}
+
+.checkout-country-container select {
+  width: 100%;
+}
+.product-quantity-badge {
+  display: inline-block;
+  background-color: rgb(110, 110, 110);
+  color: white;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 12px;
+  margin: 10px;
+}
+.checkout-right {
+  border-left: 1px solid #ddd;
+}

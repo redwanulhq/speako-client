@@ -1,0 +1,22 @@
+button.cover-btn {
+    padding: 0 17px;
+    background-color: transparent;
+    color: #333;
+    border: 1px solid #212529;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+}
+.btn-container {
+    display: flex;
+    gap: 10px;
+}
+button.cover-btn svg {
+    font-size: 35px;
+}
+button.cover-btn:last-child {
+    background-color: #212529;
+    color: white;
+}

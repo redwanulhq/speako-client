@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800;900&family=Raleway:wght@400;700;900&display=swap");
+
+body {
+    margin: 0;
+    font-family: "Jost", sans-serif !important;
+    font-family: "Raleway", sans-serif;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+html {
+    overflow-x: hidden;
+}
